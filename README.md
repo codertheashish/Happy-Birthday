@@ -150,7 +150,8 @@ Agar images show nahi ho rahi, reason:
 ## 👨‍💻 Author
 
 **Ashish Kumar Prajapati**
-💻 GitHub: [https://github.com/codertheashish](https://github.com/codertheashish)
+
+💻 GitHub:(https://github.com/codertheashish)
 
 ---
 
