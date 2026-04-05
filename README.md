@@ -76,17 +76,7 @@ https://github.com/codertheashish/Happy-Birthday
 
 ---
 
-### 3️⃣ Add Your Content
-
-#### 📸 Replace Images
-
-⚠️ Abhi code me yeh paths hain:
-
-```html
-i:\My Drive\Ashish1.jpeg
-```
-
-👉 Inko change karo:
+### 3️⃣ Add Your Contents 
 
 ```html
 images/photo1.jpg
@@ -95,12 +85,6 @@ images/photo1.jpg
 ---
 
 #### 🎵 Replace Music
-
-```html
-c:\Users\...\Birthday_song.mpeg
-```
-
-👉 Replace with:
 
 ```html
 audio/song.mp3
@@ -123,19 +107,6 @@ project-folder/
 │
 └── README.md
 ```
-
----
-
-## ⚙️ Important Fixes (Very Important ⚠️)
-
-Agar images show nahi ho rahi, reason:
-
-❌ Local path use kiya hai (i:\ , c:)
-
-✔ Solution:
-
-* Relative path use karo (`images/photo.jpg`)
-* Ya Google Drive direct link use karo
 
 ---
 
