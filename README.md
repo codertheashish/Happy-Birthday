@@ -115,6 +115,13 @@ project-folder/
 * Click buttons to navigate
 * "Q" not needed (web-based project)
 * "Replay The Magic" button to restart
+  
+## 🚀 Future Improvements
+
+* Add custom name input
+* Add background music toggle
+* Add mobile gesture controls
+* Add video memories
 
 ---
 
@@ -126,12 +133,5 @@ project-folder/
 
 ---
 
-
-## 🚀 Future Improvements
-
-* Add custom name input
-* Add background music toggle
-* Add mobile gesture controls
-* Add video memories
 
 ---
