@@ -132,6 +132,5 @@ project-folder/
 💻 GitHub:(https://github.com/codertheashish)
 
 ---
-
-
 ---
+<img width="555" height="362" alt="Birthday_site" src="https://github.com/user-attachments/assets/2b102d29-dfe4-4903-8a4b-d3c66ee55a4c" />
