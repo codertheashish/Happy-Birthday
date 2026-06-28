@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Cinematic Birthday Surprise | For Someone Special</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===================== HERO PAGE ===================== -->
+    <section id="hero-page" class="page active">
+        <div id="particle-container"
+            style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; pointer-events: none;">
+        </div>
+        <h1 class="hero-title">Happy Birthday, Ashish</h1>
+        <p class="hero-sub">A Cinematic Journey Created Just For You</p>
+        <button class="btn-neon" onclick="transitionTo('message-slider-page')">Open Your Gift</button>
+    </section>
+
+    <!-- ===================== MESSAGE SLIDER PAGE ===================== -->
+    <section id="message-slider-page" class="page">
+        <div id="slider-particles"
+            style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; pointer-events: none;">
+        </div>
+        <div class="slider-card">
+            <!-- Step 1 -->
+            <div id="step-1" class="step-content active">
+                <h2 class="step-text">It's Your Special Day</h2>
+                <button class="btn-neon" onclick="nextStep(2)">Next</button>
+            </div>
+            <!-- Step 2 -->
+            <div id="step-2" class="step-content">
+                <h2 class="step-text">Have a look at it Sir Jii</h2>
+                <button class="btn-neon" onclick="nextStep(3)">Next</button>
+            </div>
+            <!-- Step 3 -->
+            <div id="step-3" class="step-content">
+                <h2 class="step-text">Ready for your surprise?</h2>
+                <button class="btn-neon" onclick="finishSlider()">Let's Go</button>
+            </div>
+            <!-- Dots -->
+            <div class="slider-dots">
+                <div id="dot-1" class="dot active"></div>
+                <div id="dot-2" class="dot"></div>
+                <div id="dot-3" class="dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CELEBRATION PAGE ===================== -->
+    <section id="celebration-page" class="page">
+        <!-- Fairy Lights -->
+        <div class="fairy-lights-container" id="fairy-lights-container">
+            <svg class="wire-svg" preserveAspectRatio="none" viewBox="0 0 1000 150">
+                <path id="wire-path" d="M0,20 Q100,60 200,20 T400,20 T600,20 T800,20 T1000,20" />
+            </svg>
+        </div>
+        <!-- Controls -->
+        <div class="glass-container" style="background: transparent; border: none; box-shadow: none;">
+            <h2 id="celeb-hint" style="font-size: 1.5rem; margin-bottom: 30px; letter-spacing: 2px;">
+                The Stage is Set...
+            </h2>
+            <button id="celeb-master-btn" class="btn-neon" onclick="celebFlow()">💡 Turn On Lights</button>
+        </div>
+    </section>
+
+    <!-- ===================== CURTAIN PAGE ===================== -->
+    <section id="curtain-page" class="page" style="padding: 0;">
+        <div class="stage" id="stage">
+            <div class="curtain-panel curtain-left"></div>
+            <div class="curtain-panel curtain-right"></div>
+            <div class="secret-content">
+                <div class="message-card" id="message-card">
+                    <h2>My Dearest Ashish,</h2>
+                    <p>
+                        Today isn't just a date on the calendar; it's a celebration of the light you bring into my life.
+                        Every moment with you is like a frame from a beautiful movie, and I'm so lucky to be your
+                        co-star. May this year be filled with as much magic as you give to everyone around you.
+                    </p>
+                    <button class="btn-neon" onclick="transitionTo('gallery-page')">Our Memories</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== GALLERY PAGE ===================== -->
+    <section id="gallery-page" class="page">
+        <!-- Persistent background balloon/sparkle container -->
+        <div id="gallery-bg-elements"
+            style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: -1;">
+        </div>
+
+        <h2 class="gallery-title">Moments in Time</h2>
+
+        <div class="gallery-grid">
+            <!-- Memory 1 -->
+            <div class="memory-card">
+                <img src="Ashish1.jpeg" alt="Memory" class="memory-image">
+                <div class="memory-hover-overlay">
+                    <p class="hover-message">You make my world beautiful ❤️</p>
+                </div>
+            </div>
+            <!-- Memory 2 -->
+            <div class="memory-card">
+                <img src="Ashish2.jpeg" alt="Memory" class="memory-image">
+                <div class="memory-hover-overlay">
+                    <p class="hover-message">Our memories are forever ✨</p>
+                </div>
+            </div>
+            <!-- Memory 3 -->
+            <div class="memory-card">
+                <img src="Ashish3.jpeg" alt="Memory" class="memory-image">
+                <div class="memory-hover-overlay">
+                    <p class="hover-message">My favorite smile in the world 💖</p>
+                </div>
+            </div>
+            <!-- Memory 4 -->
+            <div class="memory-card">
+                <img src="Ashish4.jpeg" alt="Memory" class="memory-image">
+                <div class="memory-hover-overlay">
+                    <p class="hover-message">Every second with you is a gift 🎁</p>
+                </div>
+            </div>
+            <!-- Memory 5 -->
+            <div class="memory-card">
+                <img src="Ashish5.jpeg" alt="Memory" class="memory-image">
+                <div class="memory-hover-overlay">
+                    <p class="hover-message">To many more adventures together 🥂</p>
+                </div>
+            </div>
+            <!-- Memory 6 -->
+            <div class="memory-card">
+                <img src="Ashish6.jpeg" alt="Memory" class="memory-image">
+                <div class="memory-hover-overlay">
+                    <p class="hover-message">Always & Forever 🌹</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; padding: 100px 0;">
+            <button class="btn-neon" onclick="location.reload()">Replay The Magic</button>
+        </div>
+    </section>
+
+    <!-- ===================== AUDIO ===================== -->
+    <audio id="birthday-audio" loop>
+        <source src="Birthday_song.mpeg" type="audio/mpeg">
+    </audio>
+
+    <!-- ===================== SCRIPTS ===================== -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
