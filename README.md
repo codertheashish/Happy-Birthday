@@ -129,7 +129,8 @@ project-folder/
 
 **Ashish Kumar Prajapati**
 
-💻 GitHub:(https://github.com/codertheashish)
+💻 GitHub: 
+https://github.com/codertheashish
 
 ---
 ---
