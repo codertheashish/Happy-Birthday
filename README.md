@@ -129,9 +129,14 @@ project-folder/
 
 **Ashish Kumar Prajapati**
 
-💻 GitHub: 
-https://github.com/codertheashish
+- GitHub:
+[codertheashish](https://github.com/codertheashish)
+- Linkedin :
+[codertheashish](https://www.linkedin.com/in/codertheashish/)
+- Instagram :
+[codertheashish](https://www.instagram.com/codertheashish/)
+---
 
----
----
-<img width="555" height="362" alt="Birthday_site" src="https://github.com/user-attachments/assets/2b102d29-dfe4-4903-8a4b-d3c66ee55a4c" />
+⭐ If you like this portfolio, don't forget to give it a star on GitHub.
+
+<img width="601" height="437" alt="Birthday_site" src="https://github.com/user-attachments/assets/2b102d29-dfe4-4903-8a4b-d3c66ee55a4c" />
