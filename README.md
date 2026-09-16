@@ -65,7 +65,7 @@ This project includes multiple interactive sections:
 ### 1️⃣ Download / Clone
 
 ```bash
-https://github.com/codertheashish/Happy-Birthday
+https://github.com/codertheashish/Happy-Birthday.git
 ```
 
 ---
